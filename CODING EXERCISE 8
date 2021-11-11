@@ -1,0 +1,28 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class IfElseQuestion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Write a java program to get a number from the user and print whether it positive or negative
+		
+		Scanner in = new Scanner (System.in);
+		System.out.println("Enter a number: ");
+		int number = in.nextInt();
+		
+		if (number>0) {
+			System.out.println("Number is positive"); 
+		}
+		
+		else if (number<0) {
+			System.out.println("Number is negative");
+		}
+		else 
+			System.out.println("Number is zero");
+	
+	}
+
+}
