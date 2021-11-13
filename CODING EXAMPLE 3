@@ -1,0 +1,17 @@
+package selfProgramming;
+
+public class BlockStatement2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int amount = 12;
+		int balance = 15;
+		
+		if (amount <= balance) {
+			balance = balance - amount;
+			System.out.println("Acc new balance = " +balance);	
+			}
+	}
+
+}
