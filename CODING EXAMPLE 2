@@ -1,0 +1,23 @@
+package selfProgramming;
+
+public class BlockStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int total;
+		int MAX = 26;
+		int no1 = 15;
+		int no2 = 20;
+		int no3 = 25;
+		
+		total = no1+no2+no3;
+		
+		if (total>MAX) {
+			System.out.println("Error!!");
+	
+		}
+		
+	}
+
+}
